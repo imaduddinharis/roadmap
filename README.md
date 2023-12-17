@@ -17,6 +17,10 @@
                 Linkedin: 
                 <a href="https://www.linkedin.com/in/imaduddin-haris-nasution/">Imaduddin Haris Nasution</a>
             </li>
+            <li>
+                CV + Portfolio: 
+                <a href="./assets/pdf/cv-portfolio-duds.pdf" download>Imaduddin Haris Nasution</a>
+            </li>
         </ul>
       </td>
     </tr>
