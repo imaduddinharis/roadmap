@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+* {
+  font-family: "Jaldi", sans-serif;
+}
+
+html,
+body {
+  font-size: 16px;
+}
+
+body {
+  background-color: #cccccc;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+.nav-container,
+main > section,
+footer {
+  width: 90vw;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2.5rem;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo img {
+  width: 5rem;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+
+.menu li {
+  list-style: none;
+}
+
+#section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+#section-header img {
+  height: 10rem;
+  width: auto;
+  margin-bottom: 2.5rem;
+}
+
+#section-header h1,
+#section-header h2 {
+  margin: 0px;
+}
+
+hr {
+  border-color: #e4e4e4;
+  margin: 2.5rem 0 2.5rem 0;
+}
+
+#content section,
+.category {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+#content section:first-child {
+  gap: 0.5rem;
+}
+.category li {
+  list-style: none;
+}
+
+.content-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-item {
+  width: 25%;
+  background: #ffffff;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.25rem;
+}
+.main-item img {
+  width: 80%;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
